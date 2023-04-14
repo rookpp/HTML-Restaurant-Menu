@@ -5,22 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
 <body>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
     <!-- TODO: Banner Image here-->
+    <div id="banner">
+        <img  alt="Banner" src="assets/images/banner.png">
+    </div>
     <main>
         <h2>Hours of Operation</h2>
         <p>
             <strong>Monday-Friday:</strong> 11:00am-8:30pm
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            
         </p>
         <p>
             <strong>Saturday-Sunday:</strong> 1:00pm-10:00pm
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <!--clock emoticon wasnt working for some reason? Calendar will have to do for now-->
         </p>
         <h2>Contact Info</h2>
         <p>
             <strong>Phone Number:</strong> TBD
+            <i class="fa fa-phone" aria-hidden="true"></i>
+        </p>
+        <h2>Address</h2>
+        <p><strong>The curb by my house</strong>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+        </p>
+        
+        <h2>Customer Service Email</h2>
+        <p>
+            <a href="mailto:RestaurantEmail@organization.org">RestaurantEmail@organization.org</a>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
         </p>
     </main>
 </body>
